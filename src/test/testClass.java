@@ -14,7 +14,7 @@ class testClass {
 		assertEquals(5.0,test.answer6(15),"");
 		assertEquals(97,test.answer7(3),"");
 		assertEquals(95,test.answer7(2),"");
-		assertEquals(-1,test.answer7(96),"");
+		assertEquals(-1,test.answer7(5),"");
 		
 	}
 

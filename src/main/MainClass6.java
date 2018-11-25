@@ -1,7 +1,7 @@
 package main;
 
 public class MainClass6 {
-	public static int total=100;
+	public static int total=100,buyers=0;
 	public double answer6(int m) {
 		double T,ans=0;
 		int[] ara=new int[]{1,10,20,40};
@@ -19,6 +19,10 @@ public class MainClass6 {
 		}
 		else if(m>total) return -1;
 		else total=total-m;
+		buyers++;
 		return total;
+	}
+	public int getBuyer() {
+		return buyers;
 	}
 }
